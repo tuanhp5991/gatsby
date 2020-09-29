@@ -10805,6 +10805,27 @@ gatsby-interface@^0.0.193:
     lodash.sample "^4.2.1"
     theme-ui "^0.2.49"
 
+gatsby-interface@^0.0.202:
+  version "0.0.202"
+  resolved "https://registry.yarnpkg.com/gatsby-interface/-/gatsby-interface-0.0.202.tgz#e0282fcdec2bc21049a3c4267589edf4e2e01a9e"
+  integrity sha512-7o69VC+cyZjYM5VfJQHlQ232yJliMxxWBT94f/KKegUw/+853vq46tzqSSTlY1PlwHj7E2dH53YC2waHRUqiXQ==
+  dependencies:
+    "@mdx-js/react" "^1.5.2"
+    "@reach/alert" "0.10.3"
+    "@reach/combobox" "0.10.3"
+    "@reach/dialog" "0.10.3"
+    "@reach/menu-button" "0.10.3"
+    "@reach/popover" "0.10.3"
+    "@reach/tabs" "0.10.3"
+    "@reach/tooltip" "0.10.3"
+    "@types/lodash.sample" "^4.2.6"
+    case "^1.6.2"
+    date-fns "^2.8.1"
+    gatsby-design-tokens "^2.0.2"
+    lodash.sample "^4.2.1"
+    markdown-to-jsx "^7.0.0"
+    theme-ui "^0.2.49"
+
 gatsby-node-helpers@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/gatsby-node-helpers/-/gatsby-node-helpers-0.3.0.tgz#3bdca3b7902a702a5834fef280ad66d51099d57c"
@@ -15796,6 +15817,11 @@ markdown-table@^2.0.0:
   dependencies:
     repeat-string "^1.0.0"
 
+markdown-to-jsx@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.0.0.tgz#66c57f69d1b22a710f862496b0bfde11b452a7d9"
+  integrity sha512-ZdV2vzQSepzmhdfaFYKxSyRhgtlRCM126iUqw2kYIC4Wq3H7xWnF45OgWa1/LXMjDsdrCLLxnQ+wEsX8IW7DHw==
+
 markdown-toc@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/markdown-toc/-/markdown-toc-1.2.0.tgz#44a15606844490314afc0444483f9e7b1122c339"
@@ -19256,10 +19282,10 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.13.1, query-string@^6.13.3, query-string@^6.5.0:
-  version "6.13.3"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.3.tgz#57d1c20e828b0e562d66b7f71a4998bd57f84112"
-  integrity sha512-dldo2oHe3sg03iPshlHw/64nkaRUJKdS0FW85kmWQkmCkqUbNdNdgkgtAufJcEpjzrx6Q9EW9Y3xqx/rM9pGhw==
+query-string@^6.13.1, query-string@^6.13.3, query-string@^6.13.4, query-string@^6.5.0:
+  version "6.13.4"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.13.4.tgz#b35a9a3bd4955bce55f94feb0e819b3d0be6f66f"
+  integrity sha512-E2NPIeJoBEJGQNy3ib1k/Z/OkDBUKIo8IV2ZVwbKfoa65IS9unqWWUlLcbfU70Da0qNoxUZZA8CfKUjKLE641Q==
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
